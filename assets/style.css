@@ -1,0 +1,19 @@
+h2{
+    font-weight: bold;
+    font-family:cursive;
+    font-style: normal;
+    font-size: x-large;
+    color: indigo;
+}
+body{
+    background-color:#B2BABB;
+}
+li{
+    font-style: italic;
+    color: #1F618D;
+    font-weight: 200;
+}
+img{
+    border-radius:100px;
+    
+}
