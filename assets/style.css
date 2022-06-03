@@ -1,19 +1,36 @@
-h2{
-    font-weight: bold;
-    font-family:cursive;
-    font-style: normal;
-    font-size: x-large;
-    color: indigo;
+*{
+    color: aliceblue;
 }
-body{
-    background-color:#B2BABB;
+body {
+    background-color: #B2BABB;
+    margin: 0;
+    padding: 0;
+    background-color: #072F5F;
+    color: ;
 }
-li{
-    font-style: italic;
-    color: #1F618D;
-    font-weight: 200;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* display: inline-block; */
+    width: 100%;
+    z-index: 1;
+    /* position: fixed; */
+    /* background-color: #072F5F; */
+    /* color: aliceblue; */
+    background-color: #045192
 }
-img{
-    border-radius:100px;
-    
+
+nav>.name {
+    width: 40%
+}
+
+nav>.name>h1 {
+    padding: 20px;
+}
+
+nav>.links>.sections>li {
+    display: inline-block;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
