@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #072F5F;
-    color: ;
+    /* color: ; */
 }
 
 nav {
@@ -43,4 +43,41 @@ main > #container-1 > .about > .details , picture{
     padding: 30px;
     margin: 20px;
 }
- 
+ h2{
+     font-size: 30px;
+     text-align: center;
+ }
+ .my-skills{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+   
+     padding: 30px;
+    
+ }
+ .my-skills .skill{
+     
+     width: 30%;
+     height: 60vh;
+     color: black;
+     margin: 10px;
+     border-radius: 50px;
+ }
+ .my-skills .skill img{
+     width: 100%;
+     width: auto;
+ }
+ .my-projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    
+ }
+ #projects-section  .project{
+    width: 33%;
+    height: 60vh;
+    color: black;
+    margin: 10px;
+    border-radius: 50px;
+ }
