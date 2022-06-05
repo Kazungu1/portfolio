@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
     width: 100%;
     z-index: 1;
-    background-color: #045192
+    background-color: #045192;
 }
 
 nav>.name {
@@ -67,11 +67,15 @@ main > #container-1 > .about > .details , picture{
      width: 100%;
      width: auto;
  }
+ #projects-section{
+     margin: top -30px;;
+ }
  .my-projects{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     padding: 30px;
+    margin-top: 10px;
     
  }
  #projects-section  .project{
@@ -80,4 +84,17 @@ main > #container-1 > .about > .details , picture{
     color: black;
     margin: 10px;
     border-radius: 50px;
+ }
+ #contacts{
+     display: flex;
+     justify-content: space-between;
+     background-color:#045192;
+ }
+ #contacts .contact{
+     padding: 20px;
+     /* margin: 20px; */
+ }
+ #contacts .contact a{
+     text-decoration: none;
+     font-size: large;
  }
